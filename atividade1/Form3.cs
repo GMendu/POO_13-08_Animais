@@ -26,12 +26,12 @@ namespace atividade1
             dataPessoa.Columns.Add("Index", "Nome");
             dataPessoa.Columns.Add("Value", "Telefone");
             dataPessoa.Columns.Add("Value", "Endereço");
-            dataPessoa.Columns.Add("Value", "Tipo");
+            dataPessoa.Rows.Add(new object[] { P1.Nome,P1.Telefone ,P1.Endereco });
+        }
 
-            for (int i = 0; i < limite; i++)
-            {
-                dataAnimal.Rows.Add(new object[] { P1.Nome,P1.Telefone ,P1.Endereco });
-            }
+        private void btnEncerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

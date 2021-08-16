@@ -25,7 +25,13 @@ namespace atividade1
             P1.Endereco = txtEndereco.Text;
             P1.QuantidadeA = int.Parse(txtQuantA.Text);
             Form2 F2 = new Form2(P1);
+            F2.FormClosed += new FormClosedEventHandler(Form2_FormClosed);
             F2.Show();
+            this.Hide();
+        }
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

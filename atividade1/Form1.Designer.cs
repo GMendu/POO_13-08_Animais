@@ -44,91 +44,101 @@ namespace atividade1
             // labelTituloPessoa
             // 
             this.labelTituloPessoa.AutoSize = true;
-            this.labelTituloPessoa.Location = new System.Drawing.Point(47, 30);
+            this.labelTituloPessoa.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelTituloPessoa.Location = new System.Drawing.Point(14, 11);
             this.labelTituloPessoa.Name = "labelTituloPessoa";
-            this.labelTituloPessoa.Size = new System.Drawing.Size(114, 15);
+            this.labelTituloPessoa.Size = new System.Drawing.Size(212, 30);
             this.labelTituloPessoa.TabIndex = 0;
             this.labelTituloPessoa.Text = "Cadastro de pessoas";
             // 
             // labelNomeP
             // 
             this.labelNomeP.AutoSize = true;
-            this.labelNomeP.Location = new System.Drawing.Point(32, 72);
+            this.labelNomeP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelNomeP.Location = new System.Drawing.Point(14, 57);
             this.labelNomeP.Name = "labelNomeP";
-            this.labelNomeP.Size = new System.Drawing.Size(40, 15);
+            this.labelNomeP.Size = new System.Drawing.Size(53, 21);
             this.labelNomeP.TabIndex = 1;
             this.labelNomeP.Text = "Nome";
             // 
             // labelTelefone
             // 
             this.labelTelefone.AutoSize = true;
-            this.labelTelefone.Location = new System.Drawing.Point(32, 101);
+            this.labelTelefone.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelTelefone.Location = new System.Drawing.Point(14, 92);
             this.labelTelefone.Name = "labelTelefone";
-            this.labelTelefone.Size = new System.Drawing.Size(51, 15);
+            this.labelTelefone.Size = new System.Drawing.Size(67, 21);
             this.labelTelefone.TabIndex = 2;
             this.labelTelefone.Text = "Telefone";
             // 
             // labelEndereco
             // 
             this.labelEndereco.AutoSize = true;
-            this.labelEndereco.Location = new System.Drawing.Point(32, 130);
+            this.labelEndereco.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelEndereco.Location = new System.Drawing.Point(14, 127);
             this.labelEndereco.Name = "labelEndereco";
-            this.labelEndereco.Size = new System.Drawing.Size(56, 15);
+            this.labelEndereco.Size = new System.Drawing.Size(74, 21);
             this.labelEndereco.TabIndex = 3;
             this.labelEndereco.Text = "Endereço";
             // 
             // txtNomeP
             // 
-            this.txtNomeP.Location = new System.Drawing.Point(103, 69);
+            this.txtNomeP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNomeP.Location = new System.Drawing.Point(98, 54);
             this.txtNomeP.Name = "txtNomeP";
-            this.txtNomeP.Size = new System.Drawing.Size(100, 23);
+            this.txtNomeP.Size = new System.Drawing.Size(128, 29);
             this.txtNomeP.TabIndex = 4;
             // 
             // txtTelefone
             // 
-            this.txtTelefone.Location = new System.Drawing.Point(103, 98);
+            this.txtTelefone.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtTelefone.Location = new System.Drawing.Point(98, 89);
             this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(100, 23);
+            this.txtTelefone.Size = new System.Drawing.Size(128, 29);
             this.txtTelefone.TabIndex = 5;
             // 
             // txtEndereco
             // 
-            this.txtEndereco.Location = new System.Drawing.Point(103, 127);
+            this.txtEndereco.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtEndereco.Location = new System.Drawing.Point(98, 124);
             this.txtEndereco.Name = "txtEndereco";
-            this.txtEndereco.Size = new System.Drawing.Size(100, 23);
+            this.txtEndereco.Size = new System.Drawing.Size(128, 29);
             this.txtEndereco.TabIndex = 6;
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(77, 202);
+            this.btnSalvar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSalvar.Location = new System.Drawing.Point(47, 210);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(168, 30);
-            this.btnSalvar.TabIndex = 7;
-            this.btnSalvar.Text = "Salvar e cadastrar animais ->";
+            this.btnSalvar.Size = new System.Drawing.Size(179, 30);
+            this.btnSalvar.TabIndex = 8;
+            this.btnSalvar.Text = "Cadastro de animais ➤";
             this.btnSalvar.UseVisualStyleBackColor = true;
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // labelQuantA
             // 
             this.labelQuantA.AutoSize = true;
-            this.labelQuantA.Location = new System.Drawing.Point(32, 164);
+            this.labelQuantA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelQuantA.Location = new System.Drawing.Point(14, 162);
             this.labelQuantA.Name = "labelQuantA";
-            this.labelQuantA.Size = new System.Drawing.Size(129, 15);
+            this.labelQuantA.Size = new System.Drawing.Size(170, 21);
             this.labelQuantA.TabIndex = 9;
             this.labelQuantA.Text = "Quantidade de animais";
             // 
             // txtQuantA
             // 
-            this.txtQuantA.Location = new System.Drawing.Point(167, 161);
+            this.txtQuantA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtQuantA.Location = new System.Drawing.Point(190, 159);
             this.txtQuantA.Name = "txtQuantA";
-            this.txtQuantA.Size = new System.Drawing.Size(36, 23);
-            this.txtQuantA.TabIndex = 10;
+            this.txtQuantA.Size = new System.Drawing.Size(36, 29);
+            this.txtQuantA.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(260, 247);
+            this.ClientSize = new System.Drawing.Size(244, 254);
             this.Controls.Add(this.txtQuantA);
             this.Controls.Add(this.labelQuantA);
             this.Controls.Add(this.btnSalvar);

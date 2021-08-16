@@ -46,99 +46,113 @@ namespace atividade1
             // labelTituloAnimal
             // 
             this.labelTituloAnimal.AutoSize = true;
-            this.labelTituloAnimal.Location = new System.Drawing.Point(58, 30);
+            this.labelTituloAnimal.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelTituloAnimal.Location = new System.Drawing.Point(10, 11);
             this.labelTituloAnimal.Name = "labelTituloAnimal";
-            this.labelTituloAnimal.Size = new System.Drawing.Size(116, 15);
+            this.labelTituloAnimal.Size = new System.Drawing.Size(211, 30);
             this.labelTituloAnimal.TabIndex = 0;
             this.labelTituloAnimal.Text = "Cadastro de Animais";
             // 
             // labelTipo
             // 
             this.labelTipo.AutoSize = true;
-            this.labelTipo.Location = new System.Drawing.Point(48, 114);
+            this.labelTipo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelTipo.Location = new System.Drawing.Point(22, 90);
             this.labelTipo.Name = "labelTipo";
-            this.labelTipo.Size = new System.Drawing.Size(30, 15);
-            this.labelTipo.TabIndex = 1;
+            this.labelTipo.Size = new System.Drawing.Size(40, 21);
+            this.labelTipo.TabIndex = 2;
             this.labelTipo.Text = "Tipo";
             // 
             // labelNomeA
             // 
             this.labelNomeA.AutoSize = true;
-            this.labelNomeA.Location = new System.Drawing.Point(38, 150);
+            this.labelNomeA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelNomeA.Location = new System.Drawing.Point(22, 125);
             this.labelNomeA.Name = "labelNomeA";
-            this.labelNomeA.Size = new System.Drawing.Size(40, 15);
-            this.labelNomeA.TabIndex = 2;
+            this.labelNomeA.Size = new System.Drawing.Size(53, 21);
+            this.labelNomeA.TabIndex = 3;
             this.labelNomeA.Text = "Nome";
             // 
             // labelIdade
             // 
             this.labelIdade.AutoSize = true;
-            this.labelIdade.Location = new System.Drawing.Point(42, 189);
+            this.labelIdade.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelIdade.Location = new System.Drawing.Point(22, 160);
             this.labelIdade.Name = "labelIdade";
-            this.labelIdade.Size = new System.Drawing.Size(36, 15);
-            this.labelIdade.TabIndex = 3;
+            this.labelIdade.Size = new System.Drawing.Size(48, 21);
+            this.labelIdade.TabIndex = 4;
             this.labelIdade.Text = "Idade";
             // 
             // labelSexo
             // 
             this.labelSexo.AutoSize = true;
-            this.labelSexo.Location = new System.Drawing.Point(46, 227);
+            this.labelSexo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelSexo.Location = new System.Drawing.Point(22, 195);
             this.labelSexo.Name = "labelSexo";
-            this.labelSexo.Size = new System.Drawing.Size(32, 15);
-            this.labelSexo.TabIndex = 4;
+            this.labelSexo.Size = new System.Drawing.Size(43, 21);
+            this.labelSexo.TabIndex = 5;
             this.labelSexo.Text = "Sexo";
             // 
             // txtTipo
             // 
-            this.txtTipo.Location = new System.Drawing.Point(97, 111);
+            this.txtTipo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtTipo.Location = new System.Drawing.Point(81, 90);
             this.txtTipo.Name = "txtTipo";
-            this.txtTipo.Size = new System.Drawing.Size(92, 23);
-            this.txtTipo.TabIndex = 5;
+            this.txtTipo.Size = new System.Drawing.Size(122, 29);
+            this.txtTipo.TabIndex = 7;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(97, 147);
+            this.txtNome.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNome.Location = new System.Drawing.Point(81, 125);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(92, 23);
-            this.txtNome.TabIndex = 6;
+            this.txtNome.Size = new System.Drawing.Size(122, 29);
+            this.txtNome.TabIndex = 8;
             // 
             // txtIdade
             // 
-            this.txtIdade.Location = new System.Drawing.Point(97, 186);
+            this.txtIdade.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtIdade.Location = new System.Drawing.Point(81, 160);
             this.txtIdade.Name = "txtIdade";
-            this.txtIdade.Size = new System.Drawing.Size(92, 23);
-            this.txtIdade.TabIndex = 7;
+            this.txtIdade.Size = new System.Drawing.Size(122, 29);
+            this.txtIdade.TabIndex = 9;
             // 
             // txtSexo
             // 
-            this.txtSexo.Location = new System.Drawing.Point(97, 224);
+            this.txtSexo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtSexo.Location = new System.Drawing.Point(81, 195);
             this.txtSexo.Name = "txtSexo";
-            this.txtSexo.Size = new System.Drawing.Size(92, 23);
-            this.txtSexo.TabIndex = 8;
+            this.txtSexo.Size = new System.Drawing.Size(122, 29);
+            this.txtSexo.TabIndex = 10;
             // 
             // txtNumAnimal
             // 
+            this.txtNumAnimal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNumAnimal.Enabled = false;
-            this.txtNumAnimal.Location = new System.Drawing.Point(104, 67);
+            this.txtNumAnimal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNumAnimal.Location = new System.Drawing.Point(107, 53);
             this.txtNumAnimal.Name = "txtNumAnimal";
             this.txtNumAnimal.ReadOnly = true;
-            this.txtNumAnimal.Size = new System.Drawing.Size(44, 23);
-            this.txtNumAnimal.TabIndex = 9;
+            this.txtNumAnimal.Size = new System.Drawing.Size(44, 22);
+            this.txtNumAnimal.TabIndex = 6;
+            this.txtNumAnimal.TabStop = false;
             // 
             // labelNumA
             // 
             this.labelNumA.AutoSize = true;
-            this.labelNumA.Location = new System.Drawing.Point(38, 70);
+            this.labelNumA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelNumA.Location = new System.Drawing.Point(22, 53);
             this.labelNumA.Name = "labelNumA";
-            this.labelNumA.Size = new System.Drawing.Size(60, 15);
-            this.labelNumA.TabIndex = 10;
+            this.labelNumA.Size = new System.Drawing.Size(79, 21);
+            this.labelNumA.TabIndex = 1;
             this.labelNumA.Text = "Animal nº";
             // 
             // btnProximo
             // 
-            this.btnProximo.Location = new System.Drawing.Point(187, 274);
+            this.btnProximo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProximo.Location = new System.Drawing.Point(126, 245);
             this.btnProximo.Name = "btnProximo";
-            this.btnProximo.Size = new System.Drawing.Size(75, 23);
+            this.btnProximo.Size = new System.Drawing.Size(95, 38);
             this.btnProximo.TabIndex = 11;
             this.btnProximo.Text = "Próximo";
             this.btnProximo.UseVisualStyleBackColor = true;
@@ -148,7 +162,7 @@ namespace atividade1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(280, 313);
+            this.ClientSize = new System.Drawing.Size(231, 295);
             this.Controls.Add(this.btnProximo);
             this.Controls.Add(this.labelNumA);
             this.Controls.Add(this.txtNumAnimal);
