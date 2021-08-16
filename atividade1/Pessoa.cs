@@ -4,7 +4,7 @@ using System.Text;
 
 namespace atividade1
 {
-    class Pessoa
+    public class Pessoa
     {
         public string Nome { get; set; }
         public string Telefone { get; set; }

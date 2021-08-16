@@ -40,7 +40,7 @@ namespace atividade1
             this.txtSexo = new System.Windows.Forms.TextBox();
             this.txtNumAnimal = new System.Windows.Forms.TextBox();
             this.labelNumA = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnProximo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelTituloAnimal
@@ -134,22 +134,22 @@ namespace atividade1
             this.labelNumA.TabIndex = 10;
             this.labelNumA.Text = "Animal nº";
             // 
-            // button1
+            // btnProximo
             // 
-            this.button1.Location = new System.Drawing.Point(187, 274);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnProximo.Location = new System.Drawing.Point(187, 274);
+            this.btnProximo.Name = "btnProximo";
+            this.btnProximo.Size = new System.Drawing.Size(75, 23);
+            this.btnProximo.TabIndex = 11;
+            this.btnProximo.Text = "Próximo";
+            this.btnProximo.UseVisualStyleBackColor = true;
+            this.btnProximo.Click += new System.EventHandler(this.btnProximo_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(280, 313);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnProximo);
             this.Controls.Add(this.labelNumA);
             this.Controls.Add(this.txtNumAnimal);
             this.Controls.Add(this.txtSexo);
@@ -181,6 +181,6 @@ namespace atividade1
         private System.Windows.Forms.TextBox txtSexo;
         private System.Windows.Forms.TextBox txtNumAnimal;
         private System.Windows.Forms.Label labelNumA;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnProximo;
     }
 }

@@ -10,24 +10,31 @@ namespace atividade1
 {
     public partial class Form2 : Form
     {
-        int x;
-        public Form2(int x)
+        public string[,] Animais = new string[999, 4];
+        public int tam, limite;
+        Pessoa pessoa;
+        public Form2(Pessoa P1)
         {
             InitializeComponent();
-            this.x = x;
-            txtNumAnimal.Text = x.ToString();
+            pessoa = P1;
+            this.tam = P1.QuantidadeA;
+            this.limite = P1.QuantidadeA;
+            txtNumAnimal.Text = P1.QuantidadeA.ToString();
+
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void btnProximo_Click(object sender, EventArgs e)
         {
-            Animal A1 = new Animal();
-            string[,] animal = new string[4, x];
-            for(int j = x; j > 0; j--)
-            for (int i = 0; i < 4; i++)
+            Animais[tam, 0] = txtNome.Text;
+            Animais[tam, 1] = txtIdade.Text;
+            Animais[tam, 2] = txtSexo.Text;
+            Animais[tam, 3] = txtTipo.Text;
+            txtNumAnimal.Text = tam.ToString();
+            tam--;
+            if (tam < 0)
             {
-                animal[i, x] = txtTipo.Text;
+                Form3 F3 = new Form3(Animais,limite,pessoa);
+                F3.Show();
             }
-
         }
     }
 }

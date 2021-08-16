@@ -21,11 +21,11 @@ namespace atividade1
         {
             Pessoa P1 = new Pessoa();
             P1.Nome = txtNomeP.Text;
-            P1.Endereco = txtEndereco.Text;
             P1.Telefone = txtTelefone.Text;
+            P1.Endereco = txtEndereco.Text;
             P1.QuantidadeA = int.Parse(txtQuantA.Text);
-            Form2 f2 = new Form2(P1.QuantidadeA);
-            f2.Show();
+            Form2 F2 = new Form2(P1);
+            F2.Show();
         }
     }
 }
