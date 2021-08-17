@@ -10,7 +10,7 @@ namespace atividade1
 {
     public partial class Form3 : Form
     {
-        public Form3(string[,] Dados,int limite,Pessoa P1)
+        public Form3(Animal A1,int limite,Pessoa P1)
         {
             InitializeComponent();
             dataAnimal.Columns.Add("Index", "Nome");
@@ -20,7 +20,7 @@ namespace atividade1
 
             for (int i = 0; i < limite; i++)
             {
-                dataAnimal.Rows.Add(new object[] { Dados[i, 0], Dados[i,1], Dados[i, 2], Dados[i, 3] });
+                dataAnimal.Rows.Add(new object[] { A1.Animais[i, 0], A1.Animais[i,1], A1.Animais[i, 2], A1.Animais[i, 3] });
             }
 
             dataPessoa.Columns.Add("Index", "Nome");

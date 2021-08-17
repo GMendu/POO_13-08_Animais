@@ -10,7 +10,6 @@ namespace atividade1
 {
     public partial class Form2 : Form
     {
-        public string[,] Animais = new string[999, 4];
         public int tam, limite;
         public string numerodeanimais;
         Pessoa pessoa;
@@ -24,14 +23,14 @@ namespace atividade1
             txtNumAnimal.Text = numerodeanimais;
 
         }
-
+        Animal A1 = new Animal();
         private void btnProximo_Click(object sender, EventArgs e)
         {
             tam--;
-            Animais[tam, 0] = txtNome.Text;
-            Animais[tam, 1] = txtIdade.Text;
-            Animais[tam, 2] = txtSexo.Text;
-            Animais[tam, 3] = txtTipo.Text;
+            A1.Animais[tam, 0] = txtNome.Text;
+            A1.Animais[tam, 1] = txtIdade.Text;
+            A1.Animais[tam, 2] = txtSexo.Text;
+            A1.Animais[tam, 3] = txtTipo.Text;
             numerodeanimais = $"{limite - (tam - 1)} de {limite}";
             txtNumAnimal.Text = numerodeanimais;
             txtNome.Text = "";
@@ -41,7 +40,7 @@ namespace atividade1
             if (tam < 1)
             {
                 txtNumAnimal.Text = "limite";
-                Form3 F3 = new Form3(Animais,limite,pessoa);
+                Form3 F3 = new Form3(A1,limite,pessoa);
                 F3.FormClosed += new FormClosedEventHandler(Form3_FormClosed);
                 F3.Show();
                 this.Hide();

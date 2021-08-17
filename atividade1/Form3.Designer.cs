@@ -65,7 +65,7 @@ namespace atividade1
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataAnimal.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataAnimal.Location = new System.Drawing.Point(12, 125);
+            this.dataAnimal.Location = new System.Drawing.Point(12, 68);
             this.dataAnimal.Name = "dataAnimal";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
@@ -75,7 +75,7 @@ namespace atividade1
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataAnimal.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataAnimal.Size = new System.Drawing.Size(721, 402);
+            this.dataAnimal.Size = new System.Drawing.Size(721, 459);
             this.dataAnimal.TabIndex = 0;
             // 
             // dataPessoa
@@ -113,7 +113,7 @@ namespace atividade1
             this.dataPessoa.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataPessoa.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dataPessoa.RowTemplate.Height = 25;
-            this.dataPessoa.Size = new System.Drawing.Size(721, 107);
+            this.dataPessoa.Size = new System.Drawing.Size(721, 50);
             this.dataPessoa.TabIndex = 1;
             // 
             // btnEncerrar

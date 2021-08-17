@@ -133,7 +133,7 @@ namespace atividade1
             this.txtNumAnimal.Location = new System.Drawing.Point(107, 53);
             this.txtNumAnimal.Name = "txtNumAnimal";
             this.txtNumAnimal.ReadOnly = true;
-            this.txtNumAnimal.Size = new System.Drawing.Size(44, 22);
+            this.txtNumAnimal.Size = new System.Drawing.Size(77, 22);
             this.txtNumAnimal.TabIndex = 6;
             this.txtNumAnimal.TabStop = false;
             // 
