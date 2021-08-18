@@ -149,6 +149,7 @@ namespace atividade1
             // 
             // btnProximo
             // 
+            this.btnProximo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnProximo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProximo.Location = new System.Drawing.Point(126, 245);
             this.btnProximo.Name = "btnProximo";
@@ -175,8 +176,12 @@ namespace atividade1
             this.Controls.Add(this.labelNomeA);
             this.Controls.Add(this.labelTipo);
             this.Controls.Add(this.labelTituloAnimal);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Animalindos";
             this.ResumeLayout(false);
             this.PerformLayout();
 

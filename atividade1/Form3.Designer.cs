@@ -135,8 +135,12 @@ namespace atividade1
             this.Controls.Add(this.btnEncerrar);
             this.Controls.Add(this.dataPessoa);
             this.Controls.Add(this.dataAnimal);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Animalindos";
             ((System.ComponentModel.ISupportInitialize)(this.dataAnimal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataPessoa)).EndInit();
             this.ResumeLayout(false);

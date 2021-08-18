@@ -107,6 +107,7 @@ namespace atividade1
             // 
             // btnSalvar
             // 
+            this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalvar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSalvar.Location = new System.Drawing.Point(47, 210);
             this.btnSalvar.Name = "btnSalvar";
@@ -149,8 +150,12 @@ namespace atividade1
             this.Controls.Add(this.labelTelefone);
             this.Controls.Add(this.labelNomeP);
             this.Controls.Add(this.labelTituloPessoa);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Animalindos";
             this.ResumeLayout(false);
             this.PerformLayout();
 
